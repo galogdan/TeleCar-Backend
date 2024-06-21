@@ -4,7 +4,7 @@ from app.utils.translation import translate_text
 
 
 router = APIRouter()
-API_KEY = "API TO USE"
+API_KEY = "API TO USE "
 
 @router.get("/parking-locations/")
 async def get_parking_locations(lat: float, lon: float):
