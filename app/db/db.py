@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-uri = "Our Mongo URL (Hidden)"
+uri = "Our Mongo URL  (Hidden)"
 client = MongoClient(uri)
 db = client["TeleCar"]
 users_collection = db["Users"]
