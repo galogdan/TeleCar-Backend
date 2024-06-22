@@ -83,3 +83,24 @@ def get_user_by_car_id_endpoint(car_id: str):
         return {"car_id": car_id, "exists": True}
     else:
         raise HTTPException(status_code=404, detail="Car ID not found")
+
+@router.delete("/messages/{message_id}")
+def delete_message(message_id: str):
+    result = messages_collection.delete_one({"_id": ObjectId(message_id)})
+    if result.deleted_count == 1:
+        return {"status": "success", "message": "Message deleted successfully"}
+    else:
+        raise HTTPException(status_code=404, detail="Message not found")
+
+@router.delete("/chats/{car_id}/{chat_partner}")
+def delete_chat(car_id: str, chat_partner: str):
+    result = messages_collection.delete_many({
+        "$or": [
+            {"sender": car_id, "receiver": chat_partner},
+            {"sender": chat_partner, "receiver": car_id}
+        ]
+    })
+    if result.deleted_count > 0:
+        return {"status": "success", "message": "Chat deleted successfully"}
+    else:
+        raise HTTPException(status_code=404, detail="Chat not found")
