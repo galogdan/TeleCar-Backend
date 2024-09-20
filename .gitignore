@@ -28,10 +28,11 @@ Thumbs.db
 .pytest_cache/
 
 # Specific files to ignore
-db.py
-config.py
-service.py
-dmv.py
+/app/db/db.py
+/app/core/config.py
+/app/core/security.py
+/app/api/services.py
+/app/utils/dmv.py
 
 
 # Configuration files
