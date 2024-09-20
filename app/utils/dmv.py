@@ -5,7 +5,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 api_endpoint = "https://data.gov.il/api/3/action/datastore_search"
-resource_id = "053cea08-09bc-40ec-8f7a-156f0677aff3"  # Replace with the actual resource ID
+resource_id = "053cea08-09bc-40ec-8f7a-156f0677aff3"
 resource_motorcycle_id = "bf9df4e2-d90d-4c0a-a400-19e15af8e95f"
 
 def fetch_data_from_api(resource_id, car_id):

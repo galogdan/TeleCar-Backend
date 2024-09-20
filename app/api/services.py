@@ -22,7 +22,7 @@ def vehicle_info(car_id: str):
         raise HTTPException(status_code=404, detail="Car ID not found")
 
 
-API_KEY = "I3DH5Z2BLX4Q9BOZ"
+API_KEY = "Your API"
 
 
 logging.basicConfig(level=logging.INFO)

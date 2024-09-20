@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-uri = "mongodb+srv://galogdan321:TeleCar111@telecar.mrp67e9.mongodb.net/?retryWrites=true&w=majority&appName=TeleCar"
+uri = "YOUR MONGO URL"
 client = MongoClient(uri)
 db = client["TeleCar"]
 users_collection = db["Users"]
