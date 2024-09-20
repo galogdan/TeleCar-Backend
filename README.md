@@ -1,5 +1,7 @@
 # TeleCar Backend 🚗💬🌐
 
+TeleCar is a comprehensive automotive application that connects vehicle owners, facilitates communication, and provides a platform for buying, selling, and discussing all things related to cars. With TeleCar, users can engage in real-time chat with other car owners, participate in forum discussions, explore auction listings, manage tickets, and access various vehicle-related services.
+
 This repository contains the backend code for the TeleCar application, built using FastAPI and Python. The backend provides a robust API for managing user authentication, real-time chat functionality, forum discussions, auction listings, ticket management, and integration with external services.
 
 ## Features ✨
@@ -17,7 +19,7 @@ This repository contains the backend code for the TeleCar application, built usi
 
 - 🗨️ Forum Discussions:
   - Create, read, and manage forum posts
-  - Categorize posts based on vehicle model and brand
+  - Filter posts based on user choice
   - User commenting system for engaging discussions
 
 - 🏷️ Auction Listings:
@@ -38,7 +40,6 @@ This repository contains the backend code for the TeleCar application, built usi
 
 - 🚀 FastAPI: A modern, fast, web framework for building APIs with Python
 - 🍃 MongoDB: A NoSQL database for storing user, chat, forum, auction, and ticket data
-- 🔌 WebSockets: Enables real-time communication for the chat functionality
 - 🔑 JWT (JSON Web Tokens): Used for authentication and securing routes
 - 🌐 GoogleTrans: A library for translating text between languages
 - 📦 Pydantic: For data validation and serialization
