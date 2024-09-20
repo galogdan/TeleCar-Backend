@@ -33,6 +33,14 @@ config.py
 service.py
 dmv.py
 
+
+# Configuration files
+*.ini
+*.cfg
+
+# Local development
+local_settings.py
+
 # Python specific
 *.egg-info/
 dist/
@@ -55,3 +63,38 @@ htmlcov/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Package management
+Pipfile.lock
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Security
+*.pem
+*.key
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Caches
+.cache/
+
+# Compiled Python files
+*.pyc
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Dependency directories
+node_modules/
+
+# Application specific
+instance/
