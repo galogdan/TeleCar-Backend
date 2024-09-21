@@ -1,7 +1,5 @@
 # TeleCar Backend 🚗💬🌐
 
-![TeleCar - Copy](https://github.com/user-attachments/assets/60d53819-bfb4-4462-80a1-0af4ea3da704)
-
 
 TeleCar is a comprehensive automotive application that connects vehicle owners, facilitates communication, and provides a platform for buying, selling, and discussing all things related to cars. With TeleCar, users can engage in real-time chat with other car owners, participate in forum discussions, explore auction listings, manage tickets, and access various vehicle-related services.
 
