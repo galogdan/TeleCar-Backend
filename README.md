@@ -3,8 +3,6 @@
 
 TeleCar is a comprehensive automotive application that connects vehicle owners, facilitates communication, and provides a platform for buying, selling, and discussing all things related to cars. With TeleCar, users can engage in real-time chat with other car owners, participate in forum discussions, explore auction listings, manage tickets, and access various vehicle-related services.
 
-![TeleCar](https://github.com/user-attachments/assets/47260b9d-7a78-453e-8a81-0ac3f99a6129)
-
 This repository contains the backend code for the TeleCar application, built using FastAPI and Python. The backend provides a robust API for managing user authentication, real-time chat functionality, forum discussions, auction listings, ticket management, and integration with external services.
 
 ## Features ✨
@@ -20,7 +18,7 @@ This repository contains the backend code for the TeleCar application, built usi
   - Message persistence in MongoDB
   - Last chat retrieval for each user
 
-- 🗨️ Forum Discussions:
+- 🗨️ Forum Discussions:                                                                                ![TeleCar](https://github.com/user-attachments/assets/47260b9d-7a78-453e-8a81-0ac3f99a6129)
   - Create, read, and manage forum posts
   - Filter posts based on user choice
   - User commenting system for engaging discussions
