@@ -1,5 +1,7 @@
 # TeleCar Backend 🚗💬🌐
 
+![TeleCar - Copy](https://github.com/user-attachments/assets/60d53819-bfb4-4462-80a1-0af4ea3da704)
+
 
 TeleCar is a comprehensive automotive application that connects vehicle owners, facilitates communication, and provides a platform for buying, selling, and discussing all things related to cars. With TeleCar, users can engage in real-time chat with other car owners, participate in forum discussions, explore auction listings, manage tickets, and access various vehicle-related services.
 
@@ -18,7 +20,7 @@ This repository contains the backend code for the TeleCar application, built usi
   - Message persistence in MongoDB
   - Last chat retrieval for each user
 
-- 🗨️ Forum Discussions:                                                                                ![TeleCar](https://github.com/user-attachments/assets/47260b9d-7a78-453e-8a81-0ac3f99a6129)
+- 🗨️ Forum Discussions:
   - Create, read, and manage forum posts
   - Filter posts based on user choice
   - User commenting system for engaging discussions
