@@ -7,7 +7,7 @@ users_collection = db["Users"]
 forum_collection = db["Forum"]
 auctions_collection = db["Auctions"]
 tickets_collection = db["Tickets"]
-messages_collection = db ["Messagess"]
+messages_collection = db ["Messages"]
 
 # Send a ping to confirm a successful connection
 try:
